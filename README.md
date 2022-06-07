@@ -28,7 +28,7 @@ npm run build-dev
 
 ## Running
 
-Open the file `dist/index.html` in your browser
+Open the file `client/dist/index.html` in your browser
 
 Tech Stack
 

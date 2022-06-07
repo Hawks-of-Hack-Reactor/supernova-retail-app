@@ -2,9 +2,9 @@ const webpack = require("webpack");
 const path = require("path");
 
 const config = {
-  entry: ["react-hot-loader/patch", "./src/index.js"],
+  entry: ["react-hot-loader/patch", "./client/src/index.js"],
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "client/dist"),
     filename: "bundle.js",
   },
   module: {
@@ -35,7 +35,7 @@ const config = {
     },
   },
   devServer: {
-    contentBase: "./dist",
+    contentBase: "./client/dist",
   },
 };
 
