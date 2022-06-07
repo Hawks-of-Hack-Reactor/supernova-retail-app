@@ -8,10 +8,10 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
-    "build-dev": "webpack -d --mode development",
-    "build-prod": "webpack -p --mode production",
-    "start-dev": "webpack-dev-server --hot --mode development",
-    "start": "nodemon server.js",
+    "build-dev": "webpack -d --mode development --watch",
+    "build-prod": "webpack -p --mode production --watch",
+    "start-dev": "webpack-dev-server --hot --mode development --watch",
+    "start": "nodemon server/index.js",
     "test": "jest --coverage"
   },
   "dependencies": {
